@@ -39,6 +39,9 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(doSync), for: .touchUpInside)
         return button
     }()
+    
+    var objects: [Object] = []
+    var selectedSquareId: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +55,12 @@ class ViewController: UIViewController {
     
     @objc
     private func makeSquare() {
+        let square = Square()
+        square.delegate = self
+        objects.append(square)
+        
+        view.addSubview(square)
+        view.updateConstraintsIfNeeded()
     }
     
     @objc
@@ -87,3 +96,19 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: SquareProtocol {
+    func selectSquare(_ square: Square) {
+        for object in objects {
+            if let squareObject = object as? Square {
+                if squareObject.id == selectedSquareId {
+                    squareObject.isSelected = false
+                }
+                if squareObject.id == square.id && square.id != selectedSquareId {
+                    square.isSelected = true
+                }
+            }
+        }
+        
+        selectedSquareId = square.id
+    }
+}
