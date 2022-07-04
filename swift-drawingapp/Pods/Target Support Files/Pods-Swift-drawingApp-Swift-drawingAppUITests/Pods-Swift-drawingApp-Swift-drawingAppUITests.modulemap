@@ -1,0 +1,6 @@
+framework module Pods_Swift_drawingApp_Swift_drawingAppUITests {
+  umbrella header "Pods-Swift-drawingApp-Swift-drawingAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
