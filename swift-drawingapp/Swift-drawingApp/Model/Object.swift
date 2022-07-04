@@ -10,11 +10,9 @@ import UIKit
 
 class Object: UIView {
     
-    var id: String
+    var id = String(Int.random(in: 100000...999999))
     
     override init(frame: CGRect) {
-        id = String(Int.random(in: 100000...999999))
-        
         super.init(frame: frame)
         
         setBackgroundColor()
@@ -25,6 +23,8 @@ class Object: UIView {
     }
     
     private func setBackgroundColor() {
-        self.backgroundColor = .orange
+        let colors: [UIColor] = [.systemGreen, .systemBlue, .systemOrange, .systemYellow, .systemPink, .systemPurple, .systemTeal, .systemIndigo,
+                                 .systemBrown, .systemMint, .systemCyan, .systemGray, .systemGray2, .systemGray3, .systemGray4, .systemGray5, .systemGray6]
+        self.backgroundColor = colors.randomElement() ?? .systemGreen
     }
 }
