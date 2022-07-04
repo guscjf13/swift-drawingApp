@@ -21,6 +21,7 @@
 		43C7AB962872C180009572A0 /* Swift_drawingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7AB952872C180009572A0 /* Swift_drawingAppUITestsLaunchTests.swift */; };
 		43C7ABA32872C9FA009572A0 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7ABA22872C9FA009572A0 /* Object.swift */; };
 		43C7ABA52872CB0A009572A0 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7ABA42872CB0A009572A0 /* Square.swift */; };
+		43C7ABA82872E491009572A0 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7ABA72872E491009572A0 /* Drawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		43C7AB952872C180009572A0 /* Swift_drawingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_drawingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		43C7ABA22872C9FA009572A0 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		43C7ABA42872CB0A009572A0 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		43C7ABA72872E491009572A0 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		51A4DD172A69277361ADCE70 /* Pods-Swift-drawingApp-Swift-drawingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-drawingApp-Swift-drawingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-Swift-drawingApp-Swift-drawingAppUITests/Pods-Swift-drawingApp-Swift-drawingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9BB7351F486852167219E519 /* Pods-Swift-drawingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-drawingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Swift-drawingAppTests/Pods-Swift-drawingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1613C5BF45FE83DBD255C35 /* Pods-Swift-drawingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-drawingAppTests.release.xcconfig"; path = "Target Support Files/Pods-Swift-drawingAppTests/Pods-Swift-drawingAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				43C7ABA22872C9FA009572A0 /* Object.swift */,
 				43C7ABA42872CB0A009572A0 /* Square.swift */,
+				43C7ABA72872E491009572A0 /* Drawing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C7ABA52872CB0A009572A0 /* Square.swift in Sources */,
+				43C7ABA82872E491009572A0 /* Drawing.swift in Sources */,
 				43C7AB772872C17F009572A0 /* ViewController.swift in Sources */,
 				43C7AB732872C17F009572A0 /* AppDelegate.swift in Sources */,
 				43C7ABA32872C9FA009572A0 /* Object.swift in Sources */,
