@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  swift-drawingapp
+//  Swift-drawingApp
 //
-//  Created by JK on 2022/07/04.
+//  Created by herb.salt on 2022/07/04.
 //
 
 import UIKit

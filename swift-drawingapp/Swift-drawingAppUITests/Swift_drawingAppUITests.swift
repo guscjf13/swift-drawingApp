@@ -1,13 +1,13 @@
 //
-//  swift_drawingappUITests.swift
-//  swift-drawingappUITests
+//  Swift_drawingAppUITests.swift
+//  Swift-drawingAppUITests
 //
-//  Created by JK on 2022/07/04.
+//  Created by herb.salt on 2022/07/04.
 //
 
 import XCTest
 
-class swift_drawingappUITests: XCTestCase {
+class Swift_drawingAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,6 +27,7 @@ class swift_drawingappUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
+        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

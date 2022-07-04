@@ -1,13 +1,13 @@
 //
-//  swift_drawingappUITestsLaunchTests.swift
-//  swift-drawingappUITests
+//  Swift_drawingAppUITestsLaunchTests.swift
+//  Swift-drawingAppUITests
 //
-//  Created by JK on 2022/07/04.
+//  Created by herb.salt on 2022/07/04.
 //
 
 import XCTest
 
-class swift_drawingappUITestsLaunchTests: XCTestCase {
+class Swift_drawingAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,14 +1,14 @@
 //
-//  swift_drawingappTests.swift
-//  swift-drawingappTests
+//  Swift_drawingAppTests.swift
+//  Swift-drawingAppTests
 //
-//  Created by JK on 2022/07/04.
+//  Created by herb.salt on 2022/07/04.
 //
 
 import XCTest
-@testable import swift_drawingapp
+@testable import Swift_drawingApp
 
-class swift_drawingappTests: XCTestCase {
+class Swift_drawingAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
